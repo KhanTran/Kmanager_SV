@@ -1,0 +1,4 @@
+{
+    "connectionString" : "mongodb://admin:admin@ds125318.mlab.com:25318/kmanager",
+    "port" : 6969
+}
