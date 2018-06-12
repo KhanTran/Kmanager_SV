@@ -120,16 +120,23 @@ Router.put('/', async(req, res) => {
 Router.delete('/', async(req, res) => {
     try
     {
-        let id = req.body._id;
+        let _id = req.body._id;
+
+        schemesModel.remove({_id}, err=>{
+            if(err)
+            res.send({status : false, msg : config.CO_LOI_XAY_RA, data : null});
+            else
+            res.send({ status : true, msg : config.THANH_CONG});
 
 
-        let result = await schemesModel.updateStatusScheme(id, "5b100f78feb222491a854f17"); //trạng thái xóa
-
-        res.send({ status : true, msg : config.THANH_CONG});
+        })
+        // let result = await schemesModel.updateStatusScheme(id, "5b100f78feb222491a854f17"); //trạng thái xóa
+        
+        // res.send({ status : true, msg : config.THANH_CONG});
     }
     catch(err)
     {
-        res.send({status : false, msg : config.CO_LOI_XAY_RA, data : null});
+        // res.send({status : false, msg : config.CO_LOI_XAY_RA, data : null});
     }
 });
 
