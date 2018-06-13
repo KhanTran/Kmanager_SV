@@ -218,7 +218,7 @@ const updateScheme = async(id, scheme) => {
 const removeScheme = async(id) => {
     try
     {
-        return await schemesModel.remove({_id : id}).exc();
+        return await schemesModel.remove({_id : id});
     }
     catch (err)
     {

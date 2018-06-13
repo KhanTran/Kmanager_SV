@@ -121,9 +121,6 @@ Router.delete('/', async(req, res) => {
     try
     {
         let result = await schemesModel.removeScheme(req.body._id);
-    if(result === null)
-        res.send({status : false, msg : config.CO_LOI_XAY_RA});
-    else
         res.send({ status : true, msg : config.THANH_CONG});
 
     }
