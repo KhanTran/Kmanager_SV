@@ -215,10 +215,20 @@ const updateScheme = async(id, scheme) => {
         return -1;
     }
 }
-
+const removeScheme = async(id) => {
+    try
+    {
+        return await schemesModel.remove({_id : id}).exc();
+    }
+    catch (err)
+    {
+        return null;
+    }
+}
 module.exports = {
     selectSchemeByIdUser, createScheme, findSchemeByIdSchemeProduct, updateStatusScheme,
     selectSchemeByIdSchemeProduct,
     selectSchemeAll,
-    updateScheme
+    updateScheme,
+    removeScheme
 }
