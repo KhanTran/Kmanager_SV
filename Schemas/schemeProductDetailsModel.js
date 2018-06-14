@@ -5,19 +5,19 @@ const ObjectId = Schema.Types.ObjectId;
 const schemeProductDetailsSchema = require('../schemeProductDetails/schemeProductDetailsSchema');
 const schemeProductDetailsModel = mongoose.model('schemeProductDetails', schemeProductDetailsSchema, 'schemeProductDetails');
 
-const qrcodesSchema = require('../qrcodes/qrcodesSchema');
-const qrcodesModel = require('../qrcodes/qrcodesModel');
+const qrcodesSchema = require('../Cores/qrcodesSchema');
+const qrcodesModel = require('../Schemas/qrcodesModel');
 const qrcodesMd = mongoose.model('qrcodes', qrcodesSchema, 'qrcodes');
 
 const schemeProductsSchema = require('../schemeProducts/schemeProductsSchema');
 const schemeProductsModel = require('../schemeProducts/schemeProductsModel');
 const schemeProductsMd = mongoose.model('schemeProducts', schemeProductsSchema, 'schemeProducts');
 
-const productSchema = require('../products/productsSchema');
+const productSchema = require('../Cores/productsSchema');
 const productMd = mongoose.model('products', productSchema, 'products');
 
-const schemesSchema = require('../schemes/schemesSchema');
-const schemesModel = require('../schemes/schemesModel');
+const schemesSchema = require('../Cores/schemesSchema');
+const schemesModel = require('../Schemas/schemesModel');
 
 const createSchemeProductDetails = async(schemeProductDetail) => {
     try

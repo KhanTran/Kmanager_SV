@@ -4,7 +4,7 @@ let customersModel = mongoose.model('customers', customersSchema);
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 
-const usersSchema = require('../users/usersSchema');
+const usersSchema = require('../Cores/usersSchema');
 const usersModel = mongoose.model('users', usersSchema, 'users');
 const users = require('../users/usersModel');
 
