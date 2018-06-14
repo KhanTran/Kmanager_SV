@@ -9,7 +9,8 @@ Router.post('/', async(req, res) => {
     {
         let product = {
             name : req.body.name,
-            model : req.body.model
+            model : req.body.model,
+            info: req.body.info
         }
 
         // if(!Utils.verifyLogin(req.body.idlogin, req.headers['token']))
@@ -37,7 +38,8 @@ Router.put('/', async(req, res) => {
         let product = {
             _id : req.body._id,
             name : req.body.name,
-            model : req.body.model
+            model : req.body.model,
+            info : req.body.info
         }
 
         // if(!Utils.verifyLogin(req.body.idlogin, req.headers['token']))

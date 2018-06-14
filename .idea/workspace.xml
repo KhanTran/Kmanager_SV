@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a6574b-902f-4942-820f-748ee3082f6f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js" afterPath="$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js" />
+      <change beforePath="$PROJECT_DIR$/modules/api/products/productsController.js" afterPath="$PROJECT_DIR$/modules/api/products/productsController.js" />
+      <change beforePath="$PROJECT_DIR$/modules/api/products/productsModel.js" afterPath="$PROJECT_DIR$/modules/api/products/productsModel.js" />
+      <change beforePath="$PROJECT_DIR$/modules/api/products/productsSchema.js" afterPath="$PROJECT_DIR$/modules/api/products/productsSchema.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,11 +58,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qrcodesController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qrcodesController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state relative-caret-position="299">
+              <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/api/products/productsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/request/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productsSchema.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/api/products/productsSchema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productsModel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/api/products/productsModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -79,6 +120,9 @@
         <option value="$PROJECT_DIR$/modules/api/schemes/schemesController.js" />
         <option value="$PROJECT_DIR$/modules/api/schemes/schemesModel.js" />
         <option value="$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js" />
+        <option value="$PROJECT_DIR$/modules/api/products/productsController.js" />
+        <option value="$PROJECT_DIR$/modules/api/products/productsModel.js" />
+        <option value="$PROJECT_DIR$/modules/api/products/productsSchema.js" />
       </list>
     </option>
   </component>
@@ -136,7 +180,7 @@
               <item name="Kmanager_SV3" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="qrcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,18 +240,17 @@
       <workItem from="1517016806861" duration="1400000" />
       <workItem from="1517194895560" duration="234000" />
       <workItem from="1528864117972" duration="779000" />
-      <workItem from="1528903200088" duration="1658000" />
+      <workItem from="1528903200088" duration="2242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4650000" />
+    <option name="totallyTimeSpent" value="5234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -539,8 +582,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state relative-caret-position="299">
+          <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/api/products/productsSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/api/products/productsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/api/products/productsModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="49" />
           <folding />
         </state>
       </provider>

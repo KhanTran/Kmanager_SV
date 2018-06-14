@@ -7,7 +7,7 @@ const productsSchema = new Schema(
     {
         name : {type : String, require : true},
         model : {type : String, require : true},
-        info : {type: String, default : ""}
+        info : {type: String, require : true}
     }, {timestamps : {createAt : 'created_at', updateAt : 'updated_at'}}
 );
 

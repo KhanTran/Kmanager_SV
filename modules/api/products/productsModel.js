@@ -19,7 +19,8 @@ const updateProduct = async(product) => {
         var id = product._id;
         var queryUpdate = {
             name : product.name,
-            model : product.model
+            model : product.model,
+            info : product.info
         }
     
         return await productsModel.findByIdAndUpdate(id, queryUpdate).exec();
