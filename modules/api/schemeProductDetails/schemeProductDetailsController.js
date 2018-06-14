@@ -2,7 +2,7 @@ const express = require('express');
 const moment = require('moment');
 const Router = express.Router();
 const schemeProductDetailsModel = require('./schemeProductDetailsModel');
-const schemeModel = require('../Schemas/schemesModel');
+const schemeModel = require('../schemes/schemesModel');
 const config = require('../../../configString.json');
 const Utils = require('../../../utils/Utils');
 

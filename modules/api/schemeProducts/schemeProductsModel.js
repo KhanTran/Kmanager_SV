@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 
-const schemeProductsSchema = require('../Cores/schemeProductsSchema');
+const schemeProductsSchema = require('../schemeProducts/schemeProductsSchema');
 const schemeProductsModel = mongoose.model('schemeProducts', schemeProductsSchema, 'schemeProducts');
 
 

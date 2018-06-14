@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const qrcodesSchema = require('./qrcodesSchema');
 const qrcodesModel = mongoose.model('qrcodes', qrcodesSchema);
-const statusQRCodesSchema = require('../Cores/statusQRCodesSchema');
+const statusQRCodesSchema = require('../statusQRCodes/statusQRCodesSchema');
 const statusQRCodesModel = mongoose.model('statusQRCodes', statusQRCodesSchema, 'statusQRCodes');
 
 const createQRCode = async(qrcode) => {

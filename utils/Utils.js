@@ -6,7 +6,7 @@ const numeral = require('numeral');
 const rp = require('request-promise');
 
 const mongoose = require('mongoose');
-const userSchema = require('../Routes/users/usersSchema');
+const userSchema = require('../Cores/usersSchema');
 let usersModel = mongoose.model('users', userSchema);
 
 

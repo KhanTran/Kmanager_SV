@@ -5,21 +5,21 @@ const ObjectId = Schema.Types.ObjectId;
 const schemesSchema = require('./schemesSchema');
 const schemesModel = mongoose.model('schemes', schemesSchema, 'schemes');
 
-const customersSchema = require('../Cores/customersSchema');
+const customersSchema = require('../customers/customersSchema');
 const customersModel = mongoose.model('customers', customersSchema, 'customers');
 
-const usersSchema = require('../Cores/usersSchema');
+const usersSchema = require('../users/usersSchema');
 const usersModel = mongoose.model('users', usersSchema, 'users');
-const users = require('../Schemas/usersModel');
+const users = require('../users/usersModel');
 
-const schemeProductsSchema = require('../Cores/schemeProductsSchema');
+const schemeProductsSchema = require('../schemeProducts/schemeProductsSchema');
 const schemeProductsModel = mongoose.model('schemeProducts', schemeProductsSchema, 'schemeProducts');
 const schemeProducts = require('../schemeProducts/schemeProductsModel');
 
-const productsSchema = require('../Cores/productsSchema');
+const productsSchema = require('../products/productsSchema');
 const productsModel = mongoose.model('products', productsSchema, 'products');
 
-const statusSchemesSchema = require('../Cores/statusSchemesSchema');
+const statusSchemesSchema = require('../statusSchemes/statusSchemesSchema');
 const statusSchemesModel = mongoose.model('statusSchemes', statusSchemesSchema, 'statusSchemes');
 
 const selectSchemeByIdUser = async(id) => {
