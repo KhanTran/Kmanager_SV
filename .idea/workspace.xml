@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a6574b-902f-4942-820f-748ee3082f6f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Routes/customersController.js" afterPath="$PROJECT_DIR$/Routes/customersController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/groupsController.js" afterPath="$PROJECT_DIR$/Routes/groupsController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/productsController.js" afterPath="$PROJECT_DIR$/Routes/productsController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/qrcodesController.js" afterPath="$PROJECT_DIR$/Routes/qrcodesController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/schemeProductDetailsController.js" afterPath="$PROJECT_DIR$/Routes/schemeProductDetailsController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/schemesController.js" afterPath="$PROJECT_DIR$/Routes/schemesController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/statusQRCodesController.js" afterPath="$PROJECT_DIR$/Routes/statusQRCodesController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/statusSchemesController.js" afterPath="$PROJECT_DIR$/Routes/statusSchemesController.js" />
-      <change beforePath="$PROJECT_DIR$/Routes/usersController.js" afterPath="$PROJECT_DIR$/Routes/usersController.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/customersModel.js" afterPath="$PROJECT_DIR$/Schemas/customersModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/menusModel.js" afterPath="$PROJECT_DIR$/Schemas/menusModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/productsModel.js" afterPath="$PROJECT_DIR$/Schemas/productsModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/qrcodesModel.js" afterPath="$PROJECT_DIR$/Schemas/qrcodesModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js" afterPath="$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/schemesModel.js" afterPath="$PROJECT_DIR$/Schemas/schemesModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/statusQRCodesModel.js" afterPath="$PROJECT_DIR$/Schemas/statusQRCodesModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/statusSchemesModel.js" afterPath="$PROJECT_DIR$/Schemas/statusSchemesModel.js" />
-      <change beforePath="$PROJECT_DIR$/Schemas/usersModel.js" afterPath="$PROJECT_DIR$/Schemas/usersModel.js" />
-      <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change beforePath="$PROJECT_DIR$/utils/Utils.js" afterPath="$PROJECT_DIR$/utils/Utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,81 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customersModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schemas/customersModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groupsController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Routes/groupsController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groupsModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schemas/groupsModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statusQRCodesController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Routes/statusQRCodesController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schemesModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schemas/schemesModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statusSchemesModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schemas/statusSchemesModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schemeProductDetailsModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -126,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -185,12 +95,12 @@
         <option value="$PROJECT_DIR$/Schemas/statusSchemesModel.js" />
         <option value="$PROJECT_DIR$/Schemas/usersModel.js" />
         <option value="$PROJECT_DIR$/Routes/usersController.js" />
-        <option value="$PROJECT_DIR$/utils/Utils.js" />
         <option value="$PROJECT_DIR$/Schemas/customersModel.js" />
         <option value="$PROJECT_DIR$/Schemas/groupsModel.js" />
         <option value="$PROJECT_DIR$/Routes/statusQRCodesController.js" />
         <option value="$PROJECT_DIR$/Schemas/schemesModel.js" />
         <option value="$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js" />
+        <option value="$PROJECT_DIR$/utils/Utils.js" />
       </list>
     </option>
   </component>
@@ -224,6 +134,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,11 +142,15 @@
               <item name="Kmanager_SV3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kmanager_SV3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kmanager_SV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kmanager_SV3" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,11 +210,12 @@
       <workItem from="1528988097053" duration="2373000" />
       <workItem from="1528990516256" duration="7000" />
       <workItem from="1528990526893" duration="1000" />
+      <workItem from="1528990714285" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9443000" />
+    <option name="totallyTimeSpent" value="9511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
@@ -351,17 +267,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/modules/api/schemes/schemesModel.js</url>
-          <line>220</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/modules/api/schemes/schemesModel.js</url>
-          <line>222</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
@@ -385,62 +290,14 @@
     <entry file="file://$PROJECT_DIR$/modules/api/qrcodes/qrcodesController.js" />
     <entry file="file://$PROJECT_DIR$/modules/api/qrcodes/qrcodesModel.js" />
     <entry file="file://$PROJECT_DIR$/modules/api/qrcodes/qrcodesSchema.js" />
-    <entry file="file://$PROJECT_DIR$/Cores/menusSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/productsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/qrcodesSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/schemeProductDetailsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/schemeProductsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/schemesSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/statusQRCodesSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/usersSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cores/menusSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/productsSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/qrcodesSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/schemeProductDetailsSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/schemeProductsSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/schemesSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/statusQRCodesSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/usersSchema.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15869">
@@ -471,189 +328,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/menusModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/productsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/qrcodesModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/schemeProductsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/statusQRCodesModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/usersModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/customersSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cores/groupsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/customersController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/menusController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/productsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/qrcodesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/schemeProductDetailsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/schemeProductsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/schemesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/statusSchemesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/usersController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/customersModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/groupsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/groupsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Routes/statusQRCodesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/schemesModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/statusSchemesModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Schemas/menusModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/productsModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/qrcodesModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/schemeProductsModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/statusQRCodesModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/usersModel.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/customersSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Cores/groupsSchema.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/customersController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/menusController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/productsController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/qrcodesController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/schemeProductDetailsController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/schemeProductsController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/schemesController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/statusSchemesController.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/usersController.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/customersModel.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/groupsController.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/groupsModel.js" />
+    <entry file="file://$PROJECT_DIR$/Routes/statusQRCodesController.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/schemesModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/statusSchemesModel.js" />
+    <entry file="file://$PROJECT_DIR$/Schemas/schemeProductDetailsModel.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9165">
@@ -665,7 +363,15 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>
