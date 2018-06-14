@@ -72,7 +72,7 @@ Router.put('/', async(req, res) => {
     try
     {
         let result = await qrcodesModel.updateQRCode(req.query.idqrcode, req.query.idstatus);
-            if(result)
+            if(!result)
                 res.send({status : false, msg : config.CO_LOI_XAY_RA});
             else
                 res.send({status : true, msg : config.THANH_CONG});
