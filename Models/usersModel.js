@@ -32,7 +32,7 @@ const updateUser = async(user) => {
             phonenumber : user.phonenumber
         }
     
-        return await usersModel.findOneAndUpdate(id, queryUpdate).exec();
+        return await usersModel.findByIdAndUpdate(id, queryUpdate).exec();
     }
     catch(err)
     {
