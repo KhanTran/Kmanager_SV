@@ -1,6 +1,6 @@
 const express = require('express');
 const Router = express.Router();
-const groupsModel = require('../Schemas/groupsModel');
+const groupsModel = require('../Models/groupsModel');
 const config = require('../configString.json');
 const Utils = require('../utils/Utils');
 

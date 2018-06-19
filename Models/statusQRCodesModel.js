@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const statusQRCodesSchema = require('../Cores/statusQRCodesSchema');
+const statusQRCodesSchema = require('../Schemas/statusQRCodesSchema');
 let statusQRCodesModel = mongoose.model('statusQRCodes', statusQRCodesSchema, 'statusQRCodes');
 
 const selectAllStatus = async({}) => {

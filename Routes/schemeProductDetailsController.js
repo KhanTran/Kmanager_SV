@@ -1,8 +1,8 @@
 const express = require('express');
 const moment = require('moment');
 const Router = express.Router();
-const schemeProductDetailsModel = require('../Schemas/schemeProductDetailsModel');
-const schemeModel = require('../Schemas/schemesModel');
+const schemeProductDetailsModel = require('../Models/schemeProductDetailsModel');
+const schemeModel = require('../Models/schemesModel');
 const config = require('../configString.json');
 const Utils = require('../utils/Utils');
 

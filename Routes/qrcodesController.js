@@ -1,6 +1,6 @@
 const express = require('express');
 const Router = express.Router();
-const qrcodesModel = require('../Schemas/qrcodesModel');
+const qrcodesModel = require('../Models/qrcodesModel');
 const config = require('../configString.json');
 const Utils = require('../utils/Utils');
 

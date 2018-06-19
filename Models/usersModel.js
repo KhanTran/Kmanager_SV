@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const userSchema = require('../Cores/usersSchema');
+const userSchema = require('../Schemas/usersSchema');
 let usersModel = mongoose.model('users', userSchema);
 
-const groupsSchema = require('../Cores/groupsSchema');
+const groupsSchema = require('../Schemas/groupsSchema');
 let groupsModel = mongoose.model('groups', groupsSchema);
 
 const createUser = async(user) => {

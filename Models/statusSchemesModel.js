@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const statusSchemesSchema = require('../Cores/statusSchemesSchema');
+const statusSchemesSchema = require('../Schemas/statusSchemesSchema');
 let statusSchemesModel = mongoose.model('statusSchemes', statusSchemesSchema);
 
 const selectAllStatus = async({}) => {

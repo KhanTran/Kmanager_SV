@@ -1,6 +1,6 @@
 const express = require('express');
 const Router = express.Router();
-const statusQRCodesModel = require('../Schemas/statusQRCodesModel');
+const statusQRCodesModel = require('../Models/statusQRCodesModel');
 const config = require('../configString.json');
 const Utils = require('../utils/Utils');
 

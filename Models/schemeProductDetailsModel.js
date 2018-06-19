@@ -2,22 +2,22 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 
-const schemeProductDetailsSchema = require('../Cores/schemeProductDetailsSchema');
+const schemeProductDetailsSchema = require('../Schemas/schemeProductDetailsSchema');
 const schemeProductDetailsModel = mongoose.model('schemeProductDetails', schemeProductDetailsSchema, 'schemeProductDetails');
 
-const qrcodesSchema = require('../Cores/qrcodesSchema');
-const qrcodesModel = require('../Schemas/qrcodesModel');
+const qrcodesSchema = require('../Schemas/qrcodesSchema');
+const qrcodesModel = require('../Models/qrcodesModel');
 const qrcodesMd = mongoose.model('qrcodes', qrcodesSchema, 'qrcodes');
 
-const schemeProductsSchema = require('../Cores/schemeProductsSchema');
-const schemeProductsModel = require('../Schemas/schemeProductsModel');
+const schemeProductsSchema = require('../Schemas/schemeProductsSchema');
+const schemeProductsModel = require('../Models/schemeProductsModel');
 const schemeProductsMd = mongoose.model('schemeProducts', schemeProductsSchema, 'schemeProducts');
 
-const productSchema = require('../Cores/productsSchema');
+const productSchema = require('../Schemas/productsSchema');
 const productMd = mongoose.model('products', productSchema, 'products');
 
-const schemesSchema = require('../Cores/schemesSchema');
-const schemesModel = require('../Schemas/schemesModel');
+const schemesSchema = require('../Schemas/schemesSchema');
+const schemesModel = require('../Models/schemesModel');
 
 const createSchemeProductDetails = async(schemeProductDetail) => {
     try

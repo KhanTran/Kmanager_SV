@@ -1,7 +1,7 @@
 const express = require('express');
 const Router = express.Router();
-const statusSchemesModel = require('../Schemas/statusSchemesModel');
-const schemeModel = require('../Schemas/schemesModel');
+const statusSchemesModel = require('../Models/statusSchemesModel');
+const schemeModel = require('../Models/schemesModel');
 const config = require('../configString.json');
 const Utils = require('../utils/Utils');
 

@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
-const customersSchema = require('../Cores/customersSchema');
+const customersSchema = require('../Schemas/customersSchema');
 let customersModel = mongoose.model('customers', customersSchema);
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 
-const usersSchema = require('../Cores/usersSchema');
+const usersSchema = require('../Schemas/usersSchema');
 const usersModel = mongoose.model('users', usersSchema, 'users');
-const users = require('../Schemas/usersModel');
+const users = require('../Models/usersModel');
 
 const createCustomer = async (customer) => {
     try

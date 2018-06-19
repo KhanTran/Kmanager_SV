@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const groupsSchema = require('../Cores/groupsSchema');
+const groupsSchema = require('../Schemas/groupsSchema');
 let groupsModel = mongoose.model('groups', groupsSchema);
 
 const findByIdGroup = (idgroup, callback) => {

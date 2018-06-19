@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const productsSchema = require('../Cores/productsSchema');
+const productsSchema = require('../Schemas/productsSchema');
 let productsModel = mongoose.model('products', productsSchema);
 
 const createProduct = async(product) => {

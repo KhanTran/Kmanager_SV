@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const menusSchema = require('../Cores/menusSchema');
+const menusSchema = require('../Schemas/menusSchema');
 let menusModel = mongoose.model('menus', menusSchema);
 
 const findMenusByGroup = async (idgroup) => {
