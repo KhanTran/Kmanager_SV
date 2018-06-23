@@ -19,9 +19,8 @@ const createUser = async(user) => {
 const updateUser = async(user) => {
     try
     {
-        var id = user._id;
+        var id = user.id;
         var queryUpdate = {
-            email : user.email,
             fullname : user.fullname,
             dateofbirth : user.dateofbirth,
             tokenfirebase : user.tokenfirebase,
